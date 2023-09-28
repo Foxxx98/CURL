@@ -1,0 +1,10 @@
+DISCORD
+sudo pacman -S discord
+curl -O https://raw.githubusercontent.com/bb010g/betterdiscordctl/master/betterdiscordctl
+chmod +x betterdiscordctl
+mv betterdiscordctl /usr/local/bin
+theme
+https://betterdiscord.app/theme/Tokyo%20Night
+
+actu
+betterdiscordctl self-upgrade
