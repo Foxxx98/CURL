@@ -1,0 +1,41 @@
+
+SPOTIFY
+[
+paru spotify
+curl -sSL https://raw.githubusercontent.com/SpotX-CLI/SpotX-Linux/main/install.sh
+paru spicetify-cli
+git clone --depth=1 https://github.com/spicetify/spicetify-themes.git 
+cd spicetify-themes
+cp -r * ~/.config/spicetify/Themes
+mkdir .config/spicetify/Themes/TokyoNight
+cd .config/spicetify/Themes/TokyoNight
+touch color.init
+nvim color.init
+spotify tokyo
+{
+[TokyoNight]
+button             = 364A82
+sidebar            = 16161e
+player             = 16161e
+main               = 1a1b26
+button-active      = A9B1D6
+text               = c0caf5
+subtext            = 9aa5ce
+button-text        = A9B1D6
+card               = 364A82
+shadow             = 364A82
+selected-row       = 565f89
+sub-button         = 24283b
+button-disabled    = 364A82
+sidebar-button     = 24283b
+play-button        = 24283b
+tab-active         = A9B1D6
+notification       = 8f5e15
+notification-error = 8c4351
+playback-bar       = 24283b
+misc               = 7dcfff
+}
+spicetify config current_theme THEME_NAME
+spicetify apply
+]
+
