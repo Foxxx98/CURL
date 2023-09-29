@@ -2,7 +2,6 @@
 SPOTIFY
 [
 paru spotify
-curl -sSL https://raw.githubusercontent.com/SpotX-CLI/SpotX-Linux/main/install.sh
 paru spicetify-cli
 git clone --depth=1 https://github.com/spicetify/spicetify-themes.git 
 cd spicetify-themes
