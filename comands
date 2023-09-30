@@ -1,1 +1,4 @@
 sudo mount -t ntfs-3g /dev/sdb2 /disks/games/
+
+
+sudo find / -iname "program"
