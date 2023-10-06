@@ -1,5 +1,7 @@
 i3wm bar
 git clone git://github.com/tobi-wan-kenobi/bumblebee-status
+theme
+https://github.com/tobi-wan-kenobi/bumblebee-status/blob/main/themes/moonlight-powerline.json
 
 bar {
   position top
