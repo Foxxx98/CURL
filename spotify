@@ -34,7 +34,7 @@ notification-error = 8c4351
 playback-bar       = 24283b
 misc               = 7dcfff
 }
-spicetify config current_theme THEME_NAME
+spicetify config current_theme TokyoNight
 spicetify apply
 ]
 
