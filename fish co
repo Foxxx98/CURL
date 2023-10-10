@@ -1,4 +1,8 @@
 pacman -S starship
 
 nvim ~/.config/fish/config.fish
+neofetch
 starship init fish | source
+
+function fish_greeting
+end
