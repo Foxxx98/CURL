@@ -1,0 +1,48 @@
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/nvme0n1p2
+UUID=0169f0e3-c300-4541-acbc-76bd63abae66	/         	     ext4      	rw,relatime	0 1
+
+# /dev/nvme0n1p3
+UUID=c5b33018-f907-4cbb-a08a-5b67717da198	/home     	     ext4      	rw,relatime	0 2
+
+# /dev/nvme0n1p1
+UUID=10B6-009A      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+
+# /dev/sda1
+UUID=15aef57b-20a4-4098-bba3-2777ee62d6f8 /Thousand/XternD/Access    ext4	rw,user,exec	0 3
+
+# /dev/sda2
+UUID=942ffd93-9598-4580-8e8b-7e77a02d2e5e /Thousand/XternD/Projects  ext4	rw,user,exec	0 3
+
+# /dev/sda3
+UUID=c8bb4a21-7cf8-415f-a9a6-ec1825493c87 /Thousand/XternD/Academic  ext4       rw,user,exec	0 4
+	
+# /dev/sdb
+UUID=9a9da738-91a8-450a-88f4-f80aaccd0a8e  /Thousand/XternD/Play     ext4	rw,user,exec    0 4
+
+# /dev/sdd1
+UUID=8c4df149-382e-476f-8a0a-4ce5a1dc054c /Thousand/XternD/Movies    ext4       rw,user,exec    0 5
+
+#/dev/sdd2
+UUID=92b8f775-b26e-4c4a-849d-6caff9c81109 /Thousand/XternD/Series    ext4	rw,user,exec    0 6
+
+#/dev/sdd3
+UUID=5a20ab26-b646-4474-a3e4-ca16c4d0865d /Thousand/XternD/DownsDT   ext4	rw,user,exec    0 4
+
+#/dev/sdd4
+#UUID=fb7d044a-402f-4b0b-9d7e-45d894026518 /Thousand/XternD          ext4	rw,user,exec    0 3
+
+#/dev/sdf1
+UUID=10407ECE407EB9D4     		  /Thousand/XternD/AmD1      ntfs	rw,user,exec    0 6
+
+#/dev/sde1
+UUID=CE1668ED1668D84B		          /Thousand/XternD/AmD2      ntfs 	rw,user,exec    0 6
+
+#/dev/sdc1
+UUID=866f036a-6f31-472f-88d7-fb75e8cd294a /Thousand/XternD/AmD3      ext4 	rw,user,exec    0 6
+
+#/dev/sdc2
+UUID=d5420ab6-b403-41ca-9ca6-f855d3f2cc02 /Thousand/XternD/XpX       ext4	rw,user,exec 	0 7
+
+#/dev/sdc3
+UUID=f717dc4a-d47f-4076-ad50-dbc0c8d7b5ad /Thousand/XternD/EditsY    ext4	rw,user,exec	0 4
