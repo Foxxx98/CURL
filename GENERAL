@@ -1,1 +1,15 @@
 https://github.com/w8ste/Tokyonight-rofi-theme
+
+https://codigocristo.github.io/driver_nvidia.html
+
+xclip
+
+https://github.com/fairyglade/ly
+https://archlinux.org/packages/extra/x86_64/testdisk/
+https://athenaos.org/
+
+nano /etc/pacman.conf
+[multilib]
+Include = /etc/pacman.d/mirrorlist
+Upgrade your system:
+sudo pacman -Syyu
