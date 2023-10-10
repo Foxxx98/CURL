@@ -6,5 +6,6 @@ mv betterdiscordctl /usr/local/bin
 theme
 https://betterdiscord.app/theme/Tokyo%20Night
 
+
 actu
 betterdiscordctl self-upgrade
