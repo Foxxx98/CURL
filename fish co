@@ -6,3 +6,7 @@ starship init fish | source
 
 function fish_greeting
 end
+
+ALACRITTY 
+
+https://github.com/rajasegar/alacritty-themes/tree/master
