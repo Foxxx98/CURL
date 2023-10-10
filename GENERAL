@@ -13,3 +13,6 @@ nano /etc/pacman.conf
 Include = /etc/pacman.d/mirrorlist
 Upgrade your system:
 sudo pacman -Syyu
+
+
+https://subsunlimited.wordpress.com/2023/09/16/ohsama-sentai-king-ohger-27-28/
