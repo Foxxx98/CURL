@@ -8,10 +8,10 @@ cd spicetify-themes
 cp -r * ~/.config/spicetify/Themes
 spicetify backup
 mkdir .config/spicetify/Themes/TokyoNight
-cd .config/spicetify/Themes/TokyoNight
-touch color.init
+cd .config/spicetify/Themes/Turntable
+cp color.ini ~/.config/spicetify/Themes/TokyoNight/ 
+cd TokyoNight
 nvim color.init
-spotify tokyo
 {
 [TokyoNight]
 button             = 364A82
@@ -38,6 +38,8 @@ misc               = 7dcfff
 sudo chmod a+wr /opt/spotify
 sudo chmod a+wr /opt/spotify/Apps -R
 spicetify config current_theme TokyoNight
-spicetify apply
 ]
 https://github.com/CharlieS1103/spicetify-extensions/blob/main/adblock/adblock.js
+mv adblock.js ~/.config/spicetify/Extensions
+spicetify config extensions adblock.js
+spicetify apply
