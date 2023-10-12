@@ -20,6 +20,52 @@ NEOFETCH
 git clone https://github.com/Chick2D/neofetch-themes/
 mv neofetch-themes/normal/ozozPredatorFetch.conf  ~/.config/neofetch/config.conf
 
+print_info() {
+
+    prin "$(color 5)┌─────────────────────────────────────────────────┐"
+    info title
+    prin "$(color 5)└─────────────────────────────────────────────────┘"
+    
+    #prin "$(color 1)   $(color 2)    $(color 3)    $(color 4)    $(color 5)    $(color 6)    $(color 7)    $(color 8)    \n \n $(color 9) \n   $(color 10)    $(color 11)    $(color 12)    $(color 13)    $(color 14)    $(color 15)    $(color 16)    "
+
+    prin "$(color 5)┌─────────────────────────────────────────────────┐"
+    
+    info "${c5} OS" os
+    info "${c5}│ ├ " distro
+    info "${c5}│ ├ " kernel
+    info "${c5}│ ├ " packages
+    info "${c5}│ └ " shell
+    
+    prin"│"
+    
+    info "${c5} DE/WM" wm
+    info "${c5}│ ├ " theme
+    info "${c5}│ ├ " icons
+    info "${c5}│ └ " term
+
+    prin"│"
+    
+    info "${c5} PC" model
+    info "${c5}│ ├ " cpu
+    info "${c5}│ ├ " gpu
+    info "${c5}│ ├ " memory
+    info "${c5}│ ├ " uptime
+    info "${c5}│ └ " resolution
+    prin "$(color 5)└─────────────────────────────────────────────────┘"
+
+    echo
+
+    #prin "$(color 1)   $(color 2)    $(color 3)    $(color 4)    $(color 5)    $(color 6)    $(color 7)    $(color 8)    \n \n $(color 9) \n   $(color 10)    $(color 11)    $(color 12)    $(color 13)    $(color 14)    $(color 15)    $(color 16)    "
+   gtk2 of
+colors distro
+image_backend="ascii"
+image_source="auto"
+ascii_distro="auto"
+ascii_colors=(5 5 5 5 5 5 5)
+ascii_bold="on"
+    
+}
+
 ALACRITTY 
 font:
   size:14.0
