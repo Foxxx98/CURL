@@ -1,4 +1,4 @@
-pacman -S starship
+#pacman -S starship
 
 nvim ~/.config/fish/config.fish
 neofetch
@@ -19,6 +19,10 @@ fisher install PatrickF1/fzf.fish
 NEOFETCH
 
 ALACRITTY 
-font normal family style
+font:
+  size:14.0
+  normal:
+    family: UbuntuMono_Nerd_Font
+    style: Regular
 
 https://github.com/rajasegar/alacritty-themes/tree/master
