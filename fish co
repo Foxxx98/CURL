@@ -12,11 +12,13 @@ FISH
 curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
 fisher install vitallium/tokyonight-fish
 fish_config theme save "TokyoNight Night"
+put in config theme_tokyonight night
 fisher install jorgebucaran/autopair.fish
 fisher install PatrickF1/fzf.fish
 
 NEOFETCH
 
 ALACRITTY 
+font normal family style
 
 https://github.com/rajasegar/alacritty-themes/tree/master
