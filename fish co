@@ -17,6 +17,8 @@ fisher install jorgebucaran/autopair.fish
 fisher install PatrickF1/fzf.fish
 
 NEOFETCH
+git clone https://github.com/Chick2D/neofetch-themes/
+mv neofetch-themes/normal/ozozPredatorFetch.conf  ~/.config/neofetch/config.conf
 
 ALACRITTY 
 font:
