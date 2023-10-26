@@ -1,3 +1,8 @@
+mkdir .config/picom
+cd .config/picom
+touch picom.conf
+nvim picom.conf
+
 backend = "glx";
 glx-no-stencil = true;
 glx-copy-from-front = false;
@@ -9,9 +14,10 @@ inactive-opacity = 1;
 frame-opacity = 1;
 inactive-opacity-override = false;
 blur-background = true;
-
 blur-method = "dual_kawase";
 blur-strength = 6;
+
+vsync = true;
 
 # Fading
 fading = true;
