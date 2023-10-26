@@ -1,3 +1,4 @@
+chsh  -s /bin/fish
 #pacman -S starship
 
 nvim ~/.config/fish/config.fish
@@ -27,10 +28,14 @@ ascii_bold="on"
 }
 
 ALACRITTY 
+cp /usr/share/doc/alacritty/example/alacritty.yml ~/.config/alacritty/
+
+paru alacritty-themes
+
 font:
-  size:14.0
   normal:
     family: UbuntuMonoNerdFont
     style: Regular
+    size:14.0
 
-https://github.com/rajasegar/alacritty-themes/tree/master
+
