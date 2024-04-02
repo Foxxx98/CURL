@@ -1,3 +1,4 @@
+/etc/fstab
 # <file system> <dir> <type> <options> <dump> <pass>
 # /dev/nvme0n1p2
 UUID=0169f0e3-c300-4541-acbc-76bd63abae66	/         	     ext4      	rw,relatime	0 1
