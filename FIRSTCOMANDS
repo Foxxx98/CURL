@@ -1,0 +1,5 @@
+sudo pacman -Syu ly i3-wm alacritty xorg-xauth xorg-server
+sudo X -configure
+sudo chmod +x /usr/bin/X
+sudo chown root:root /usr/bin/X
+
