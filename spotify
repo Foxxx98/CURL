@@ -12,12 +12,8 @@ cp -r * ~/.config/spicetify/Themes
 spicetify backup
 cd
 sudo mkdir .config/spicetify/Themes/TokyoNight
-cd .config/spicetify/Themes/Turntable
-sudo cp color.ini ~/.config/spicetify/Themes/TokyoNight/ 
-cd ..
 cd TokyoNight
-sudo nvim color.ini
-{
+echo "
 [TokyoNight]
 button             = 364A82
 sidebar            = 16161e
@@ -39,7 +35,7 @@ notification       = 8f5e15
 notification-error = 8c4351
 playback-bar       = 24283b
 misc               = 7dcfff
-}
+" | tee color.ini
 sudo chmod a+wr /opt/spotify
 sudo chmod a+wr /opt/spotify/Apps -R
 spicetify config current_theme TokyoNight
