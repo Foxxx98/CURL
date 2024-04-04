@@ -4,3 +4,7 @@ https://codigocristo.github.io/driver_nvidia.html
 QEMU -LIBVIRT
 https://www.makeuseof.com/how-to-install-arch-linux-kvm-configure-virtual-machine/
 
+IOMU 
+GPU ID 
+10de:2187, 10de:1aeb, 10de:1aec, 10de:1aed
+
