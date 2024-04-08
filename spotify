@@ -10,8 +10,9 @@ git clone --depth=1 https://github.com/spicetify/spicetify-themes.git
 cd spicetify-themes
 cp -r * ~/.config/spicetify/Themes
 spicetify backup
-cd
-sudo mkdir .config/spicetify/Themes/TokyoNight
+cd 
+cd .config/spicetify/Themes/
+sudo mkdir TokyoNight
 cd TokyoNight
 echo "
 [TokyoNight]
