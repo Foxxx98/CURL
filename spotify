@@ -14,6 +14,7 @@ cd
 cd .config/spicetify/Themes/
 sudo mkdir TokyoNight
 cd TokyoNight
+sudo su
 echo "
 [TokyoNight]
 button             = 364A82
