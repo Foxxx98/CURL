@@ -2,40 +2,40 @@
 # <file system> <dir> <type> <options> <dump> <pass>
 
 # /dev/sda1
-UUID=15aef57b-20a4-4098-bba3-2777ee62d6f8 /Thousand/XternD/Access    ext4       rw,user,exec    0 3
+UUID=15aef57b-20a4-4098-bba3-2777ee62d6f8 /ThousanD/XternD/Access    ext4       rw,user,exec    0 3
 
 # /dev/sda2
-UUID=942ffd93-9598-4580-8e8b-7e77a02d2e5e /Thousand/XternD/Projects  ext4       rw,user,exec    0 3
+UUID=942ffd93-9598-4580-8e8b-7e77a02d2e5e /ThousanD/XternD/Projects  ext4       rw,user,exec    0 3
 
 # /dev/sda3
-UUID=c8bb4a21-7cf8-415f-a9a6-ec1825493c87 /Thousand/XternD/Academic  ext4       rw,user,exec    0 4
+UUID=c8bb4a21-7cf8-415f-a9a6-ec1825493c87 /ThousanD/XternD/Academic  ext4       rw,user,exec    0 4
 
 # /dev/sdb
-UUID=c7be3710-4194-4a92-901a-34901d4a721b /Thousand/XternD/Play      ext4       rw,user,exec    0 4
+UUID=c7be3710-4194-4a92-901a-34901d4a721b /ThousanD/XternD/Play      ext4       rw,user,exec    0 4
 
 # /dev/sdd1
-UUID=8c4df149-382e-476f-8a0a-4ce5a1dc054c /Thousand/XternD/Movies    ext4       rw,user,exec    0 5
+UUID=8c4df149-382e-476f-8a0a-4ce5a1dc054c /ThousanD/XternD/Movies    ext4       rw,user,exec    0 5
 
 #/dev/sdd2
-UUID=92b8f775-b26e-4c4a-849d-6caff9c81109 /Thousand/XternD/Series    ext4       rw,user,exec    0 6
+UUID=92b8f775-b26e-4c4a-849d-6caff9c81109 /ThousanD/XternD/Series    ext4       rw,user,exec    0 6
 
 #/dev/sdd3
-UUID=5a20ab26-b646-4474-a3e4-ca16c4d0865d /Thousand/XternD/DownsDT   ext4       rw,user,exec    0 4
+UUID=5a20ab26-b646-4474-a3e4-ca16c4d0865d /ThousanD/XternD/DownsDT   ext4       rw,user,exec    0 4
 
 #/dev/sdd4
-UUID=c365294b-aa14-408e-b5d1-0bc1a8887f4b /Thousand/XternD/XpX       ext4       rw,user,exec    0 3
+UUID=c365294b-aa14-408e-b5d1-0bc1a8887f4b /ThousanD/XternD/XpX       ext4       rw,user,exec    0 3
 
 #/dev/sdf1
-UUID=10407ECE407EB9D4                     /Thousand/XternD/AmD1      ntfs       rw,user,exec    0 6
+UUID=10407ECE407EB9D4                     /ThousanD/XternD/AmD1      ntfs       rw,user,exec    0 6
 
 #/dev/sde1
-UUID=CE1668ED1668D84B                     /Thousand/XternD/AmD2      ntfs       rw,user,exec    0 6
+UUID=CE1668ED1668D84B                     /ThousanD/XternD/AmD2      ntfs       rw,user,exec    0 6
 
 #/dev/sdc1
-UUID=866f036a-6f31-472f-88d7-fb75e8cd294a /Thousand/XternD/AmD3      ext4       rw,user,exec    0 6
+UUID=866f036a-6f31-472f-88d7-fb75e8cd294a /ThousanD/XternD/AmD3      ext4       rw,user,exec    0 6
 
 #/dev/sdc2
 #UUID=d5420ab6-b403-41ca-9ca6-f855d3f2cc02 /Windows       ext4  rw,user,exec    0 7
 
 #/dev/sdc3
-UUID=f717dc4a-d47f-4076-ad50-dbc0c8d7b5ad /Thousand/XternD/EditsY    ext4       rw,user,exec    0 4
+UUID=f717dc4a-d47f-4076-ad50-dbc0c8d7b5ad /ThousanD/XternD/EditsY    ext4       rw,user,exec    0 4
