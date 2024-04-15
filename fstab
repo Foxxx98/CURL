@@ -19,7 +19,7 @@ UUID=942ffd93-9598-4580-8e8b-7e77a02d2e5e /ThousanD/XternD/Projects  ext4	rw,use
 UUID=c8bb4a21-7cf8-415f-a9a6-ec1825493c87 /ThousanD/XternD/Academic  ext4       rw,user,exec	0 4
 	
 # /dev/sdb
-UUID=9a9da738-91a8-450a-88f4-f80aaccd0a8e  /ThousanD/XternD/Play     ext4	rw,user,exec    0 4
+UUID=c7be3710-4194-4a92-901a-34901d4a721b   /ThousanD/XternD/Play     ext4	rw,user,exec    0 4
 
 # /dev/sdd1
 UUID=8c4df149-382e-476f-8a0a-4ce5a1dc054c /ThousanD/XternD/Movies    ext4       rw,user,exec    0 5
