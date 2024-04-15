@@ -38,6 +38,7 @@ notification-error = 8c4351
 playback-bar       = 24283b
 misc               = 7dcfff
 " | tee color.ini
+exit
 sudo chmod a+wr /opt/spotify
 sudo chmod a+wr /opt/spotify/Apps -R
 spicetify config current_theme TokyoNight
