@@ -3,3 +3,5 @@ sudo X -configure
 sudo chmod +x /usr/bin/X
 sudo chown root:root /usr/bin/X
 
+#BUMBLEBEESTATUS
+sudo pacman -S python-dbus pamixer ttf-font-awesome powerline-fonts 
