@@ -1,3 +1,5 @@
+#para eliminar la barra de arriba poner font en 0
+
 # class                 border  backgr. text    indicator child_border
 client.focused          #bb9af7 #1a1b26 #ffffff #bb9af7   #9aa5ce
 client.focused_inactive #565f89 #1a1b26 #ffffff #bb9af7   #9aa5ce
