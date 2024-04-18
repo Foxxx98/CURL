@@ -1,0 +1,25 @@
+
+execute
+sudo pacman -Syu
+after
+for d in /sys/kernel/iommu_groups/*/devices/*; do
+  n=${d#*/iommu_groups/*}; n=${n%%/*}
+  printf 'IOMMU Group %s ' "$n"
+  lspci -nns "${d##*/}"
+done
+
+anotar ultimo numero de targeta X
+
+nvim /etc/default/grub
+add in GRUB_CMDLINE_LINUX_DEFAULT="
+amd_iommu=on iommu=pt kvm.ignore_msrs=1 isolcpus=2-7 nohz_full=2-7 rcu_nocbs=2-7  transparent_hugepage=never rd.driver.pre=vfio-pci vfio-pci.ids=X pcie_acs_override=downstream,multifunction"
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+nvim /etc/modprobe.d/vfio.conf
+vfio=XNAME
+add 
+options vfio-pci ids=(X) 
+nvim /etc/mkinitcpio.conf add
+MODULES="vfio vfio_iommu_type1 vfio_pci vfio_virqfd"
+run
+udo mkinitcpio -g /boot/linux-custom.img
