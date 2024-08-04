@@ -5,13 +5,6 @@ kitten themes
 
 run chsh -s /bin/fish
 
-nvim ~/.config/fish/config.fish
-add
-neofetch
-function fish_greeting                                            
-    # do nothing
-end 
-exit
 fisher install vitallium/tokyonight-fish
 fish_config theme save TokyoNight\ Night
 fisher install jorgebucaran/nvm.fish
@@ -24,7 +17,7 @@ ascii_colors=(5 5 5 5 5 5 5 5)
 exit
 
 FISH
-
+nvim ~/.config/fish/config.fish
 if status is-interactive
     # Commands to run in interactive sessions can go he
     neofetch
