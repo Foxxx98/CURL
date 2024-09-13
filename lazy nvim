@@ -1,5 +1,6 @@
 
-sudo pacman -S papirus-icon-theme lazygit neovim-nvim-treesitter ripgrep fd
+sudo pacman -S papirus-icon-theme lazygit ripgrep fd
+paru neovim-nvim-treesitter
 
 
 git clone https://github.com/LazyVim/starter ~/.config/nvim
