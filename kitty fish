@@ -3,7 +3,8 @@ paru ttf-material-design-icons-extended
 
 kitten themes
 
-run chsh -s /bin/fish
+run 
+chsh -s /bin/fish
 
 fisher install vitallium/tokyonight-fish
 fish_config theme save TokyoNight\ Night
