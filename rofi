@@ -1,4 +1,11 @@
+sudo mkdir .config/rofi
+sudo git clone https://github.com/w8ste/Tokyonight-rofi-theme.git
+  sudo mv ~/.config/rofi/Tokyonight-rofi-theme/tokyonight.rasi /usr/share/rofi/themes
+  sudo mv ~/.config/rofi/Tokyonight-rofi-theme/tokyonight_big1.rasi /usr/share/rofi/themes
+  sudo mv ~/.config/rofi/Tokyonight-rofi-theme/tokyonight_big2.rasi /usr/share/rofi/themes
+  sudo rm -r ~/.config/rofi/Tokyonight-rofi-theme
 
 rofi-theme-selector
 
+FUENTE
 https://github.com/w8ste/Tokyonight-rofi-theme/tree/main
