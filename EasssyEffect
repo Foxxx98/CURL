@@ -1,1 +1,1 @@
-sudo pacman -S easyeffects calf mda.lv2 
+sudo pacman -S easyeffects calf lsp-plugins mda.lv2 
