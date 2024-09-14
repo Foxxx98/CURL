@@ -1,0 +1,8 @@
+thunar thumbnails 
+sudo pacman -S thunar tumbler ffmpegthumbnailer 
+
+LF
+sudo pacman -S zsh ueberzug graphicsmagick ffmpeg
+cd .config
+mkdir lf 
+touch lf.conf
