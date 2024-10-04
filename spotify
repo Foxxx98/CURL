@@ -44,7 +44,6 @@ sudo chmod a+wr /opt/spotify/Apps -R
 spicetify config current_theme TokyoNight
 ]
 https://github.com/CharlieS1103/spicetify-extensions/blob/main/adblock/adblock.js
-cd downloads
-mv adblock.js ~/.config/spicetify/Extensions
+mv Downloads/adblock.js ~/.config/spicetify/Extensions
 spicetify config extensions adblock.js
 spicetify apply
