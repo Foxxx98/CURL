@@ -26,10 +26,10 @@ UUID=5a20ab26-b646-4474-a3e4-ca16c4d0865d /ThousanD/XternD/DownsDT   ext4       
 UUID=7083d7d1-02ee-456f-a828-943323949aaf /ThousanD/XternD/XpX       ext4       rw,user,exec    0 3
 
 #/dev/sdf1
-UUID=76BF-A46B                            /ThousanD/XternD/AmD1      ntfs       rw,user,exec    0 6
+UUID=76BF-A46B                            /ThousanD/XternD/AmD1      exfat       rw,user,exec    0 6
 
 #/dev/sde1
-UUID=8444-89C5                            /ThousanD/XternD/AmD2      ntfs       rw,user,exec    0 6
+UUID=8444-89C5                            /ThousanD/XternD/AmD2      exfat      rw,user,exec    0 6
 
 #/dev/sdc1
 UUID=881c11f1-06f2-4856-8d17-5ec66c234869 /ThousanD/XternD/AmD3      ext4       rw,user,exec    0 6
