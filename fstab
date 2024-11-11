@@ -1,41 +1,44 @@
-/etc/fstab
-# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/nvme0n1p1
+UUID=c5a8b42e-ff0f-4e2d-b882-6bd6035fcb0b       /               ext4            rw,relatime     0 1
+
+# /dev/nvme0n1p2
+UUID=07CB-57A7          /boot           vfat            rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro   0 2
 
 # /dev/sda1
-UUID=15aef57b-20a4-4098-bba3-2777ee62d6f8 /ThousanD/XternD/Access    ext4       rw,user,exec    0 3
+UUID=15aef57b-20a4-4098-bba3-2777ee62d6f8       /ThousanD/XternD/Access    ext4       rw,user,exec    0 3
 
 # /dev/sda2
-UUID=942ffd93-9598-4580-8e8b-7e77a02d2e5e /ThousanD/XternD/Projects  ext4       rw,user,exec    0 3
+UUID=942ffd93-9598-4580-8e8b-7e77a02d2e5e       /ThousanD/XternD/Projects  ext4       rw,user,exec    0 3
 
 # /dev/sda3
-UUID=c8bb4a21-7cf8-415f-a9a6-ec1825493c87 /ThousanD/XternD/Academic  ext4       rw,user,exec    0 4
+UUID=c8bb4a21-7cf8-415f-a9a6-ec1825493c87       /ThousanD/XternD/Academic  ext4       rw,user,exec    0 4
 
 # /dev/sdb
-UUID=c7be3710-4194-4a92-901a-34901d4a721b /ThousanD/XternD/Play      ext4       rw,user,exec    0 4
+#UUID=c7be3710-4194-4a92-901a-34901d4a721b      /ThousanD/XternD/Play      ext4       rw,user,exec    0 4
 
 # /dev/sdd1
-UUID=8c4df149-382e-476f-8a0a-4ce5a1dc054c /ThousanD/XternD/Movies    ext4       rw,user,exec    0 5
+UUID=8c4df149-382e-476f-8a0a-4ce5a1dc054c       /ThousanD/XternD/Movies    ext4       rw,user,exec    0 5
 
 #/dev/sdd2
-UUID=92b8f775-b26e-4c4a-849d-6caff9c81109 /ThousanD/XternD/Series    ext4       rw,user,exec    0 6
+UUID=92b8f775-b26e-4c4a-849d-6caff9c81109       /ThousanD/XternD/Series    ext4       rw,user,exec    0 6
 
 #/dev/sdd3
-UUID=5a20ab26-b646-4474-a3e4-ca16c4d0865d /ThousanD/XternD/DownsDT   ext4       rw,user,exec    0 4
+UUID=5a20ab26-b646-4474-a3e4-ca16c4d0865d       /ThousanD/XternD/DownsDT   ext4       rw,user,exec    0 4
 
 #/dev/sdd4
-UUID=7083d7d1-02ee-456f-a828-943323949aaf /ThousanD/XternD/XpX       ext4       rw,user,exec    0 3
+UUID=7083d7d1-02ee-456f-a828-943323949aaf       /ThousanD/XternD/XpX       ext4       rw,user,exec    0 3
 
 #/dev/sdf1
-UUID=76BF-A46B                            /ThousanD/XternD/AmD1      exfat       rw,user,exec    0 6
+UUID=76BF-A46B                                  /ThousanD/XternD/AmD1      exfat       rw,user,exec    0 6
 
 #/dev/sde1
-UUID=8444-89C5                            /ThousanD/XternD/AmD2      exfat      rw,user,exec    0 6
+UUID=8444-89C5                                  /ThousanD/XternD/AmD2      exfat       rw,user,exec    0 6
 
 #/dev/sdc1
-UUID=881c11f1-06f2-4856-8d17-5ec66c234869 /ThousanD/XternD/AmD3      ext4       rw,user,exec    0 6
+UUID=881c11f1-06f2-4856-8d17-5ec66c234869       /ThousanD/XternD/AmD3      ext4       rw,user,exec    0 6
 
 #/dev/sdc2
 #UUID=d5420ab6-b403-41ca-9ca6-f855d3f2cc02 /Windows       ext4  rw,user,exec    0 7
 
 #/dev/sdc3
-UUID=f717dc4a-d47f-4076-ad50-dbc0c8d7b5ad /ThousanD/XternD/EditsY    ext4       rw,user,exec    0 4
+UUID=f717dc4a-d47f-4076-ad50-dbc0c8d7b5ad       /ThousanD/XternD/EditsY    ext4       rw,user,exec    0 4
