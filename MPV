@@ -1,0 +1,26 @@
+# Video output options
+vo=gpu
+hwdec=auto  # Enable hardware decoding (only if supported)
+
+# GPU-specific settings (use OpenGL renderer for better performance)
+gpu-context=auto
+gpu-api=opengl  # Uses OpenGL for rendering, helps with smoother frames
+
+# Video sync options
+video-sync=display-resample  # Smooth out frame timing
+interpolation=yes            # Enables frame interpolation
+tscale=oversample            # High-quality scaling for smoother interpolation
+
+# Hardware and performance optimizations
+profile=opengl-hq            # High-quality OpenGL settings (lower if needed for performance)
+scale=bilinear               # Fast scaling algorithm (consider changing to `spline36` for quality)
+dscale=bilinear              # Downscale filter (use `spline36` for quality over speed)
+
+# Cache settings (can help with buffering)
+cache=yes
+cache-pause=yes              # Cache when paused, reduce performance drops on resume
+demuxer-max-bytes=512M       # Increase cache size for large files
+demuxer-max-back-bytes=5M    # Backwards caching to improve seek performance
+
+# Additional optimization for high frame rates
+fps=60                       # Target playback at 60 FPS if your display supports it
