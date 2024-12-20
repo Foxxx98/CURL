@@ -6,3 +6,11 @@ sudo pacman -S zsh ueberzug graphicsmagick ffmpeg
 cd .config
 mkdir lf 
 touch lf.conf
+
+paru stpv-git
+
+nano .config/lf/lfrc
+"set previewer stpv
+set cleaner stpvimgclr
+&stpvimg --listen $id
+cmd on-quit $stpvimg --end $id"
