@@ -1,26 +1,23 @@
 # Video output options
 vo=gpu
-hwdec=auto  # Enable hardware decoding (only if supported)
+hwdec=auto                  # Enable hardware decoding (if supported)
 
-# GPU-specific settings (use OpenGL renderer for better performance)
-gpu-context=auto
-gpu-api=opengl  # Uses OpenGL for rendering, helps with smoother frames
+# GPU-specific settings
+gpu-api=opengl              # Use OpenGL for rendering
+gpu-context=auto            # Automatically select GPU context
 
 # Video sync options
-video-sync=display-resample  # Smooth out frame timing
-interpolation=yes            # Enables frame interpolation
-tscale=oversample            # High-quality scaling for smoother interpolation
+video-sync=display-resample # Sync video to display for smooth playback
+interpolation=yes           # Enable frame interpolation
+interpolation-threshold=0.1 # Aggressive interpolation for frame rates close to the target
+tscale=catmull_rom          # High-quality temporal scaling
 
-# Hardware and performance optimizations
-profile=opengl-hq            # High-quality OpenGL settings (lower if needed for performance)
-scale=bilinear               # Fast scaling algorithm (consider changing to `spline36` for quality)
-dscale=bilinear              # Downscale filter (use `spline36` for quality over speed)
+# Scaling options
+scale=spline36              # High-quality upscaling
+dscale=spline36             # High-quality downscaling
 
-# Cache settings (can help with buffering)
+# Cache settings
 cache=yes
-cache-pause=yes              # Cache when paused, reduce performance drops on resume
-demuxer-max-bytes=512M       # Increase cache size for large files
-demuxer-max-back-bytes=5M    # Backwards caching to improve seek performance
-
-# Additional optimization for high frame rates
-fps=60                       # Target playback at 60 FPS if your display supports it
+cache-pause=yes
+demuxer-max-bytes=512M      # Larger cache size for buffering
+demuxer-max-back-bytes=5M   # Backward caching for smoother seeking
